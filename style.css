@@ -76,26 +76,6 @@ body {
 
   @media screen and (min-width: 375) and(max-width: 768px);
 }
-/* stylelint-disable-next-line rule-empty-line-before */
-.text-supprt {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0;
-  gap: 8px;
-  width: 117px;
-  height: 24px;
-
-  /* Primary/B300 */
-  color: #7f8cff;
-
-  /* Inside auto layout */
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-
-  @media screen and (min-width: 375) and(max-width: 768px);
-}
 
 h1 {
   color: #172b4d;
@@ -127,6 +107,20 @@ p {
   flex-grow: 0;
 }
 
+h2 {
+  display: flex;
+  font-weight: 100px;
+  font-family: "Poppins", sans-serif;
+
+  /* Primary/B300 */
+  color: #7f8cff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
 .tags {
   display: flex;
   flex-direction: row;
@@ -135,6 +129,7 @@ p {
   gap: 8px;
   width: 214px;
   height: 24px;
+  list-style: none;
 
   /* Inside auto layout */
   flex: none;
