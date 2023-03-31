@@ -10,6 +10,7 @@ body {
 
 .container {
   background: url(./images/header-shapes\ mobile.png);
+  margin: 50px;
 }
 
 .nav-bar {
@@ -138,6 +139,10 @@ h2 {
   flex-grow: 0;
 }
 
+.cardworks {
+  display: grid;
+}
+
 .cardworks-one {
   box-sizing: border-box;
 
@@ -148,6 +153,7 @@ h2 {
   gap: 12px;
   width: 327px;
   height: 552px;
+  margin: 45px;
 
   /* Neutrals /N0 */
   background: #ffff;
@@ -172,6 +178,7 @@ h2 {
   gap: 12px;
   width: 327px;
   height: 596px;
+  margin: 45px;
 
   /* Neutrals /N0 */
   background: #ffff;
@@ -196,6 +203,7 @@ h2 {
   gap: 12px;
   width: 327px;
   height: 552px;
+  margin: 45px;
 
   /* Neutrals /N0 */
   background: #ffff;
@@ -220,6 +228,7 @@ h2 {
   gap: 12px;
   width: 327px;
   height: 596px;
+  margin: 45px;
 
   /* Neutrals /N0 */
   background: #ffff;
@@ -275,28 +284,18 @@ h2 {
 }
 
 .press {
-  width: 102px;
-  height: 24px;
-  font-style: normal;
+  padding: 12px;
+  width: 162px;
+  height: 48px;
+  background: transparent;
+  border-radius: 8px;
+  border: 1px solid #6070ff;
+  margin-left: 0;
+  justify-content: center;
+  color: #396df2;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 17px;
-  line-height: 24px;
-  border-radius: 5px;
-  border: 1px solid #396df2;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  margin-left: 20px;
-
-  /* Identical to box-height or 141% */
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #396df2;
-
-  /* Inside auto layout */
-  flex: 0;
-  order: 0;
-  flex-grow: 0;
 }
 
 .about-me {
@@ -315,33 +314,29 @@ h2 {
 }
 
 .start {
-  width: 138px;
-  height: 24px;
-  font-style: normal;
+  padding: 12px;
+  width: 162px;
+  height: 48px;
+  font-family: "Poppins", sans-serif;
+  background: transparent;
+  border-radius: 8px;
+  border: 1px solid #6070ff;
+  margin-left: 0;
+  justify-content: center;
+  color: #396df2;
   font-weight: 500;
   font-size: 17px;
-  line-height: 24px;
-  border-radius: 5px;
-  border: 1px solid #396df2;
-  margin-top: 20px;
-  margin-bottom: 30px;
-  margin-left: 20px;
-  background-color: #fff;
-
-  /* Identical to box-height or 141% */
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #396df2;
-
-  /* Inside auto layout */
-  flex: 0;
-  order: 0;
-  flex-grow: 0;
 }
 
 .language {
   list-style: none;
+}
+
+.languages {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: #000;
 }
 
 .lists {
@@ -349,24 +344,24 @@ h2 {
 }
 
 .frameworks {
-  display: flex;
   list-style: none;
-  gap: 150px;
   align-items: center;
   margin-left: 50px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .frameworks p {
+  color: #000;
+  list-style: none;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
+  font-family: "Poppins", sans-serif;
 }
 
 .gained-skill {
-  display: flex;
   list-style: none;
-  gap: 220px;
   align-items: center;
   margin-left: 50px;
   margin-top: 30px;
@@ -374,7 +369,10 @@ h2 {
 }
 
 .gained-skill p {
+  color: #000;
+  list-style: none;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
+  font-family: "Poppins", sans-serif;
 }
