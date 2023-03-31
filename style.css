@@ -136,3 +136,220 @@ h2 {
   order: 2;
   flex-grow: 0;
 }
+
+.cardworks-one {
+  box-sizing: border-box;
+
+  /* Auto layout  */
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  width: 327px;
+  height: 552px;
+
+  /* Neutrals /N0 */
+  background: #ffff;
+
+  /* Neutrals /N40 */
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.cardworks-two {
+  box-sizing: border-box;
+
+  /* Auto layout  */
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  width: 327px;
+  height: 596px;
+
+  /* Neutrals /N0 */
+  background: #ffff;
+
+  /* Neutrals /N40 */
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.cardworks-three {
+  box-sizing: border-box;
+
+  /* Auto layout  */
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  width: 327px;
+  height: 552px;
+
+  /* Neutrals /N0 */
+  background: #ffff;
+
+  /* Neutrals /N40 */
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.cardworks-four {
+  box-sizing: border-box;
+
+  /* Auto layout  */
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 12px;
+  width: 327px;
+  height: 596px;
+
+  /* Neutrals /N0 */
+  background: #ffff;
+
+  /* Neutrals /N40 */
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+
+.frame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 12px;
+  width: 236px;
+  height: 32px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.tag {
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+  width: 214px;
+  height: 24px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.buttons {
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  position: absolute;
+  width: 126px;
+  height: 48px;
+}
+
+.press {
+  width: 102px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+
+  /* Identical to box-height or 141% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #396df2;
+
+  /* Inside auto layout */
+  flex: 0;
+  order: 0;
+  flex-grow: 0;
+}
+
+.about-me {
+  position: absolute;
+  width: 375px;
+  height: 1263px;
+  background: #fff;
+}
+
+.about {
+  width: 375px;
+  height: 35px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+
+  /* Identical to box-height or 141% */
+  align-items: center;
+  text-align: center;
+  color: #172b4d;
+
+  /* Inside auto layout */
+  flex: 0;
+  order: 0;
+  flex-grow: 0;
+}
+
+.start {
+  width: 138px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+
+  /* Identical to box-height or 141% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #396df2;
+
+  /* Inside auto layout */
+  flex: 0;
+  order: 0;
+  flex-grow: 0;
+}
+
+.language {
+  list-style: none;
+}
+
+.lists {
+  list-style: none;
+}
+
+.frameworks {
+  list-style: none;
+}
+
+.gained-skill {
+  list-style: none;
+}
