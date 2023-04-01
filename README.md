@@ -170,9 +170,6 @@ Example command:
 ```
 --->
 
-### Deployment
-
-coming soon
 
 <!--
 Example:
