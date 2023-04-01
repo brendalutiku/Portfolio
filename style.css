@@ -355,7 +355,6 @@ p {
 
 .arrow {
   color: #acb7c3;
-  
 }
 
 .containe {
@@ -364,8 +363,8 @@ p {
   word-spacing: 120px;
 }
 
-.contain{
- margin:20px;
- align-items: center;
- word-spacing: 190px; 
+.contain {
+  margin: 20px;
+  align-items: center;
+  word-spacing: 190px;
 }
