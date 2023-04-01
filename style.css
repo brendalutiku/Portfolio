@@ -328,43 +328,49 @@ p {
   font-size: 17px;
 }
 
-.language {
-  list-style: none;
-}
-
 .languages {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 30px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
   color: #000;
 }
 
 .lists {
+  padding: 5px 0;
+  display: grid;
   list-style: none;
 }
 
 .frameworks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 36px;
+  margin-top: 10%;
+  margin-bottom: 3%;
+  width: 327px;
+  list-style: none;
   font-weight: 500;
   font-size: 20px;
-  font-family: "Poppins", sans-serif;
-  line-height: 24px;
-  align-items: center;
   color: #000;
-  list-style: none;
+  line-height: 24px;
 }
 
-.arrow {
+.fa {
+  position: absolute;
   color: #acb7c3;
+  margin-right: 66px;
+  float: right;
 }
 
-.containe {
-  margin: 19px;
-  align-items: center;
-  word-spacing: 120px;
-}
-
-.contain {
-  margin: 19px;
-  align-items: center;
-  word-spacing: 190px;
+.line {
+  display: flex;
+  margin: 0 24px;
+  width: 327px;
+  color: #dfe1e6;
+  height: 1px;
 }
